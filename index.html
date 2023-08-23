@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jainil's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/desai-jainil/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Jainil-Desai" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <h1><span>J</span>ainil <span>D</span>esai</h1>
+                <p>Studying Computer Science and Economics at UConn</p>
+            </div>
+        </div> 
+    </div>  
+
+<!----------- about -----------> 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings! I'm Jainil Desai and I am currently pursuing a major in Computer Science and a minor in Economics. Beyond academics, I like play games that challenge my mind such as chess.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>HTML5, CSS, Bootstrap, Javascript, React.js, Django, Python, and Swift</li>
+                            <li><span>AWS Cloud</span><br>Amazon Web Services (AWS), AWS Identity and Access <br> Management (AWS IAM), Amazon S3, and Amazon VPC </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sentiment Analysis</span><br>Developed and implemented advanced sentiment analysis algorithms for accurate analysis of stock-related articles, with Yahoo Finance. Managed live projects by translating data insights into actionable recommendations, fostering teamwork across teams for effective solutions in financial markets.
+                            </li>
+                            <li><span>Google Solutions Challenge 2023</span><br>Worked in a team to develop a translation service requested by Governor Ned Lamont. The purpose of this project was to revolutionize accessibility for non-English-speaking parents in Connecticut's public schools, strengthening the parent-school relationship.</li>
+                            <li><span>Research Assistant</span><br>Under Professor Hasan Baig's guidance, collaborated to bridge hardware-software gap through React, seamlessly integrating components to enable virtual interaction with arduino boards, exemplifying experiential learning and innovative technology integration.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Amazon Web Services (AWS)</span><br>AWS Certified Cloud Practitioner<br>Amazon DynamoDB Immersion Day Participant<br>AWS Identity and Access Management Immersion Day Participant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------- portfolio -----------> 
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project-1.png" alt="">
+                    <div class="layer">
+                        <h3>Card Workout App</h3>
+                        <p>Users randomly picks a card. The number tells you how many repetitions to do and the suit tells you which exercise to perform.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-2.png" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>User plays Tic Tac Toe on a 3x3 grid against a computer, starting with the "X" mark.Goal is to create a row, column, or diagonal of "X's"</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-3.png" alt="">
+                    <div class="layer">
+                        <h3>ToDo App</h3>
+                        <p>User enters a task to complete and it gets added to a list. The user can check off the task or delete it if it is no longer needed.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Jainil-Desai" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+<!----------- contact ----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jdesai2004@outlook.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/desai-jainil/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Jainil-Desai" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Made with <i class="fa-solid fa-heart"></i> by <a href="https://www.linkedin.com/in/desai-jainil/">Jainil Desai</a></p>
+    </div>
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
